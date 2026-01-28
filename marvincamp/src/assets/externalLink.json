@@ -1,0 +1,30 @@
+{
+    "website": [
+        {
+            "label": "My Portfolio",
+            "url": "https://baptiste.rousselot.name/Portfolio/"
+        },
+        {
+            "label": "Tabouret.fun",
+            "url": "https://https://baptiste.rousselot.name/tabouretfun"
+        },
+        {
+            "label": "More Fun...",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+    ],
+    "reseauxSociaux": [
+        {
+            "label": "GitHub",
+            "url": "https://github.com/MarvinVaucanson"
+        },
+        {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/baptiste-rousselot-00121b251/"
+        },
+        {
+            "label": "PixelFed",
+            "url": "https://pixelfed.social/Marvin_vcs"
+        }
+    ]
+}
