@@ -1,9 +1,9 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount } from 'svelte'
     import Extlink from './Extlink.svelte'
-    import Footbar from './footbar.svelte';
-
-	let backgroundImage = '';
+    import Footbar from './Footbar.svelte'
+    import Deezer from './Deezer.svelte';
+	let backgroundImage = ''
 
 	onMount(() => {
 		const photos = [
@@ -11,7 +11,7 @@
 			'cham169.jpg',
 			'IMG_20250819_095439171_HDR_1.jpg',
 			'parcours.jpg',
-            'IMG_20250515_114237.jpg',
+            'venise.jpg',
             'IMG_20250515_114359.jpg',
             'P1010470.JPG'
 		];
@@ -21,12 +21,13 @@
 	});
 </script>
 
-<div style="background-image: url('{backgroundImage}'); background-size: cover; background-position: center; min-height: 100vh; display: flex; flex-direction: column;">
-    <!-- <h1 class='color-white'>Hello World {backgroundImage}</h1> -->
-        <div style="flex: 1;">
-            <Extlink></Extlink>
-        </div>
-    <footer style="margin-top: auto;">
-        <Footbar></Footbar>
-    </footer>
+<div class="bg-cover bg-center min-h-screen flex flex-col" style="background-image: url('{backgroundImage}');">
+    <div class="flex-1">
+        <h1 class="flex justify-center items-center">Welcome to baptiste.rousselot.name</h1>
+    </div>
+    <div class="flex-2">
+        <Extlink></Extlink>
+    </div>
+    <!-- <Deezer></Deezer> -->
+    <Footbar></Footbar>
 </div>
